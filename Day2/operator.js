@@ -1,81 +1,109 @@
 // Activity 1
-let num1 = 10;
-let num2 = 10;
-let sum = num1 + num2;
-console.log(sum);
+// Task 1
+let num1_task1 = 10;
+let num2_task1 = 10;
+let sum_task1 = num1_task1 + num2_task1;
+console.log(sum_task1);
 
-let num3 = 10;
-let num4 = 10;
-let difference = num3 - num4;
-console.log(difference);
+// Task 2
+let num3_task2 = 10;
+let num4_task2 = 10;
+let difference_task2 = num3_task2 - num4_task2;
+console.log(difference_task2);
 
-let num5 = 10;
-let num6 = 10;
-let product = num5 * num6;
-console.log(product);
+// Task 3
+let num5_task3 = 10;
+let num6_task3 = 10;
+let product_task3 = num5_task3 * num6_task3;
+console.log(product_task3);
 
-let num7 = 10;
-let num8 = 10;
-let division = num7 / num8;
-console.log(division);
+// Task 4
+let num7_task4 = 10;
+let num8_task4 = 10;
+let division_task4 = num7_task4 / num8_task4;
+console.log(division_task4);
 
-let num9 = 10;
-let num10 = 10;
-let modulus = num9 % num10;
-console.log(modulus);
+// Task 5
+let num9_task5 = 10;
+let num10_task5 = 10;
+let modulus_task5 = num9_task5 % num10_task5;
+console.log(modulus_task5);
 
 // Activity 2
-let incrementMe = 7;
-incrementMe++;
-console.log(incrementMe);
+// Task 6
+let incrementMe_task6 = 7;
+incrementMe_task6++;
+console.log(incrementMe_task6);
 
-let decrementMe = 7;
-decrementMe--;
-console.log(decrementMe);
+// Task 7
+let decrementMe_task7 = 7;
+decrementMe_task7--;
+console.log(decrementMe_task7);
 
 // Activity 3
-let number1 = 4;
-let number2 = 6;
-if (number1 > number2) {
+// Task 8
+let number1_task8 = 4;
+let number2_task8 = 6;
+if (number1_task8 > number2_task8) {
     console.log("Number 1 is greater");
-} else if (number2 > number1) {
+} else if (number2_task8 > number1_task8) {
     console.log("Number 2 is greater");
 } else {
     console.log("Both numbers are equal");
 }
 
-if (number1 >= number2) {
-    console.log("Number 1 is greater than or equal to Number 2");
-} else {
+// Task 9
+let number1_task9 = 4;
+let number2_task9 = 6;
+if (number1_task9 >= number2_task9) {
+    console.log("Number 1 is greater");
+} else if (number1_task9 <= number2_task9) {
     console.log("Number 2 is greater");
+} else {
+    console.log("Both numbers are equal");
 }
 
-let number1Str = "4";
-let number2Int = 4;
-if (number1Str === number2Int.toString()) {
+// Task 10
+let number1_task10 = "4";
+let number2_task10 = 4;
+if (number1_task10 === number2_task10) {
     console.log("Number 1 is strictly equal to Number 2");
-} else if (number1Str == number2Int) {
+} else if (number1_task10 == number2_task10) {
     console.log("Number 1 is loosely equal to Number 2");
 } else {
     console.log("Both numbers are not equal");
 }
 
 // Activity 4
-let numberA = 14;
-let numberB = 4;
-if (numberA > numberB && numberA !== numberB) {
-    console.log("Both numbers are different");
+// Task 11
+let num1_task11 = 14;
+let num2_task11 = 4;
+if (num1_task11 > num2_task11 && num1_task11 < num2_task11) {
+    console.log("Both are same");
 } else {
-    console.log("Both numbers are the same");
+    console.log("Both numbers are different");
 }
 
-if (numberA !== numberB) {
-    console.log("Both numbers are different");
+// Task 12
+let num1_task12 = 14;
+let num2_task12 = 4;
+if (num1_task12 !== num2_task12) {
+    console.log("Both are different");
 } else {
-    console.log("Both numbers are the same");
+    console.log("Both numbers are same");
+}
+
+// Task 13
+let num1_task13 = 14;
+let num2_task13 = 4;
+if (num1_task13 !== num2_task13) {
+    console.log("Both are different");
+} else {
+    console.log("Both numbers are same");
 }
 
 // Activity 5
-let a = -3;
-let result = (a > 0) ? "positive" : "negative";
-console.log(result);
+// Task 14
+let a_task14 = -3;
+let result_task14 = (a_task14 > 0) ? "positive" : "negative";
+console.log(result_task14);
