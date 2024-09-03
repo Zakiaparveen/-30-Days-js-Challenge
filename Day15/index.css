@@ -1,0 +1,30 @@
+/* body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+  
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  h2 {
+    font-size: 1.2em;
+  }
+
+
+
+  let arr = [];
+
+for (let i = 0; i < 3; i++) {
+    arr[i] = function() {
+        console.log(i);
+    };
+}
+
+// Test the functions
+arr[0](); // Logs: 0
+arr[1](); // Logs: 1
+arr[2](); // Logs: 2
+   */
